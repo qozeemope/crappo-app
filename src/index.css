@@ -1,14 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 body {
   margin: 0;
-  font-family: "Rubik", sans-serif;
   color: #ffffff;
+  box-sizing: border-box;
 }
 
 .App {
+  font-family: "Rubik", sans-serif;
   background-color: #0d0d2b;
+}
+
+/* .Hero {
+  background: url("./assets/bg1.svg") center center no-repeat,
+    url("./assets/bg2.svg") right center no-repeat;
+}
+. */
+
+.bg {
+  overflow: hidden;
+}
+
+.bg1 {
   background-image: url("./assets/bg1.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  position: absolute;
+  top: 431.82px;
+  left: 131px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.bg2 {
+  background-image: url("./assets/bg2.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 389px;
+  left: 710px;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
 }

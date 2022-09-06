@@ -17,7 +17,7 @@ function Navbar() {
           <Text>Features</Text>
           <Text>About</Text>
           <Text>Contact</Text>
-          <Text>Log in</Text>
+          <Text>Login</Text>
           <Image src={Divider} />
           <Button bgColor="#3671E9" borderRadius="32px" py="14px" px="32px">
             Register
